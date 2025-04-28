@@ -4,10 +4,18 @@ Name Of Person: Achlys Vincent
 Date: Week One Of Term Two 2025
 Purpose: To Begin Learning To Write Vanilla Java Script
 *************************/
-console.log("Dandys World? I don't know.");
+console.log("
+Hi ", userName, "
+
+As of ____ you are __ years old
+
+You have __ dollars");
 
 //Variables
-
+var userName = Achlys;
+var userAge = 14;
+var userMoney = 5.22;
+var currentYear = 2025;
 
 /*************************
 Main Code
