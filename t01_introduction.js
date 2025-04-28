@@ -1,10 +1,10 @@
 /*************************
 Name Of Task: Intro To Java Script
 Name Of Person: Achlys Vincent
-Date: Week One Of Term Two
+Date: Week One Of Term Two 2025
 Purpose: To Begin Learning To Write Vanilla Java Script
 *************************/
-console.log("Running t01_introduction.js");
+console.log("Dandys World? I don't know.");
 
 //Variables
 
