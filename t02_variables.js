@@ -5,8 +5,8 @@ Date: Week One Of Term Two 2025
 Purpose: To Begin Learning To Write Vanilla Java Script
 *************************/
 console.log(
-"Hi ", userName, 
-"As of ", currentYear, "you are ", userAge," years old
+" Hi ", userName, 
+" As of ", currentYear, " you are ", userAge, " years old
 You have ", userMoney," dollars");
 
 //Variables
