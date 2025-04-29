@@ -10,10 +10,14 @@ console.log(
 You have ", userMoney," dollars");
 
 //Variables
-var userName = Achlys;
-var userAge = 14;
-var userMoney = 5.22;
-var currentYear = 2025;
+var userName;
+userName = Achlys;
+var userAge;
+userAge = 14;
+var userMoney;
+userMoney = 5.22;
+var currentYear;
+currentYear = 2025;
 
 /*************************
 Main Code
