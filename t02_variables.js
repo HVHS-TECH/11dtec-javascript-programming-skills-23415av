@@ -1,18 +1,18 @@
 /*************************
-Name Of Task: Intro To Java Script
+Name Of Task: Variables
 Name Of Person: Achlys Vincent
 Date: Week One Of Term Two 2025
-Purpose: To Begin Learning To Write Vanilla Java Script
+Purpose: To Begin Learning To Use Variables
 *************************/
-console.log("You have ", userMoney, "dollars);
+
 
 //Variables
 
 var userName = Achlys;
 var userAge = 14;
-var userMoney = 5.22;
+var pocketMoney = 5.22;
 var currentYear = 2025;
-
+console.log(userName);
 /*************************
 Main Code
 *************************/
