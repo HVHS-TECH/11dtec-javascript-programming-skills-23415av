@@ -7,9 +7,9 @@ Purpose: To Begin Learning To Write Vanilla Java Script
 console.log("
 Hi ", userName, "
 
-As of ____ you are __ years old
+As of , currentYear, you are , userAge, years old
 
-You have __ dollars");
+You have , userMoney, dollars");
 
 //Variables
 var userName = Achlys;
