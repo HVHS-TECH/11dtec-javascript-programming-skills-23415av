@@ -13,6 +13,7 @@ var pocketMoney = 5.22;
 var currentYear = 2025;
 var ten = 10;
 var divide = 2
+var answer:
 
 /*************************
 Main Code
@@ -20,15 +21,16 @@ Main Code
 
 console.log("Hi",userName,
 "                                                 ",
-"As of",currentYear,"you are",userAge,"years old",
-"                                            ",
-"You were born in" ,currentYear - userAge,
-"                                                                ",
-"In 10 years you will be" ,currentAge + ten, "years old",
-"                                                   ",
-"You have" ,pocketMoney, "dollars",
-"                                                         ",
-"Half of your money is" ,pocketMoney / divide,);
+"As of",currentYear,"you are",userAge,"years old",);
+answer = currentYear - userAge
+console.log("You were born in" ,answer,);
+answer = currentAge + ten
+console.log("In 10 years you will be" ,answer, "years old",
+
+"You have" ,pocketMoney, "dollars",);
+
+answer = pocketMoney / divide
+console.log("Half of your money is" ,answer,);
 
 
 
