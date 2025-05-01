@@ -13,7 +13,7 @@ var pocketMoney = 5.22;
 var currentYear = 2025;
 var ten = 10;
 var divide = 2
-var answer:
+var answer;
 
 /*************************
 Main Code
@@ -24,7 +24,7 @@ console.log("Hi",userName,
 "As of",currentYear,"you are",userAge,"years old",);
 answer = currentYear - userAge
 console.log("You were born in" ,answer,);
-answer = currentAge + ten
+answer = userAge + ten
 console.log("In 10 years you will be" ,answer, "years old",
 
 "You have" ,pocketMoney, "dollars",);
