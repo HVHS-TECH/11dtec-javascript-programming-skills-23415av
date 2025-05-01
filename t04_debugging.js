@@ -1,3 +1,10 @@
+/*************************
+Name Of Task: Debugging
+Name Of Person: Achlys Vincent
+Date: Week One Of Term Two 2025
+Purpose: To Know How To Debug Code
+*************************/
+
 console.log("Task 4 - Debugging");
 
 // Set up the size of the page.
