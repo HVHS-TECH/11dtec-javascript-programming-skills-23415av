@@ -24,7 +24,7 @@ console.log("Hi",userName,
 "\nAs of",currentYear,"you are",userAge,"years old",);
 answer = currentYear - userAge;
 console.log("You were born in" ,answer);
-answer = userAge + ten;
+answer = userAge + 10;
 console.log("In 10 years you will be" ,answer, "years old",
 
 "\nYou have" ,pocketMoney, "dollars",);
