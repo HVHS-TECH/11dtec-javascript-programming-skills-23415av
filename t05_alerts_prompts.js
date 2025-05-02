@@ -14,7 +14,6 @@ var userAge = prompt("Nice to meet you " + userName +"\nWhy don't you tell me ho
 var currentYear = prompt("You're " +userAge+"? Nice age! \nI bet I can guess when you were born though. Just type in the current year.");
 var ageUp = prompt("Wanna know how old you'll be in however many years you want? \nType in the amount of years then.");
 var ageDown = prompt("Okay, but how about the opposite?");
-ageDown = Number(ageDown);
 var pocketMoney = prompt("Just one more thing I need from you " +userName+ "\nHow much money do you currently have?");
 var ten = 10;
 var divide = 2
@@ -29,6 +28,7 @@ answer = currentYear - userAge;
 console.log("You were born in" ,answer);
 answer = userAge + ageUp;
 console.log("In ",ageUp," years you will be" ,answer, "years old");
+
 answer = userAge - ageDown;
 console.log(ageDown, "years ago you were" ,answer, "years old",
 "\nYou have" ,pocketMoney, "dollars",);
