@@ -31,9 +31,9 @@ console.log("Hi",userName,
 answer = currentYear - userAge;
 console.log("You were born in" ,answer);
 answer = userAge + ageUp;
-console.log("In ",ageUp," years you will be" ,answer, "years old");
+console.log("In",ageUp,"years you will be" ,answer, "years old");
 answer = userAge - ageDown;
-console.log(ageDown, "years ago you were" ,answer, "years old",
+console.log("And" ,ageDown, "years ago you were" ,answer, "years old",
 "\nYou have" ,pocketMoney, "dollars",);
 
 answer = pocketMoney / divide;
