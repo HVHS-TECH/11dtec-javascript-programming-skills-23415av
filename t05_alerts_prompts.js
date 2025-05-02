@@ -29,7 +29,6 @@ console.log("You were born in" ,answer);
 answer = userAge + ageUp;
 console.log("In ",ageUp," years you will be" ,answer, "years old");
 ageDown = Number(ageDown);
-console.log(typeof(ageDown));
 answer = userAge - ageDown;
 console.log(ageDown, "years ago you were" ,answer, "years old",
 "\nYou have" ,pocketMoney, "dollars",);
