@@ -23,14 +23,14 @@ Main Code
 console.log("Hi",userName,
 "                                                 ",
 "As of",currentYear,"you are",userAge,"years old",);
-answer = currentYear - userAge
+answer = currentYear - userAge;
 console.log("You were born in" ,answer,);
-answer = userAge + ten
+answer = userAge + ten;
 console.log("In 10 years you will be" ,answer, "years old",
 
 "\nYou have" ,pocketMoney, "dollars",);
 
-answer = pocketMoney / divide
+answer = pocketMoney / divide;
 console.log("Half of your money is" ,answer,);
 
 /*************************
