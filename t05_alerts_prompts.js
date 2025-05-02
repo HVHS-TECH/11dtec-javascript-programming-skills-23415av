@@ -21,8 +21,7 @@ var answer;
 Main Code
 *************************/
 console.log("Hi",userName,
-"                                                 ",
-"As of",currentYear,"you are",userAge,"years old",);
+"\nAs of",currentYear,"you are",userAge,"years old",);
 answer = currentYear - userAge;
 console.log("You were born in" ,answer);
 answer = userAge + ten;
