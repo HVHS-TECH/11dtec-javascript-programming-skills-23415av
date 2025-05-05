@@ -6,7 +6,7 @@ Purpose: Use arrays to store several pieces of information.
 *************************/
 
 //Variables
-var cookie = ["Espresso Cookie\nWell done! You managed to get my second favourite cookie! \nHe's also the strongest cookie I have on my team.", "Shadow Milk Cookie\nOh Shadow Milk Cookie. Most of my friends think he's my favourite, but they're wrong, he ranks fourth.\nHe is my second strongest though, so I guess he wins.", "Wizard Cookie", "Pure Vanilla Cookie", "Clover Cookie"];
+var cookie = ["Espresso Cookie\nWell done! You managed to get my second favourite cookie! \nHe's also the strongest cookie I have on my team.", "Shadow Milk Cookie\nOh Shadow Milk Cookie. Most of my friends think he's my favourite, but they're wrong, he ranks fourth.\nHe is my second strongest though, so I guess he wins.", "Wizard Cookie\nOh. The common. He isn't even my favourite common.\nIt's Angel Cookie.", "Pure Vanilla Cookie\nI WILL NOT FALTER!!!!\nThe ancient and my number three favourite cookie.\nI like the memes.", "Clover Cookie\nYAYAYYAY!!!!\nDespite only being a rare, Clover Cookie is forever my favourite cookie.\nI maxed him out as best I could, and one day he will become Over Powered."];
 
 /*************************
 Main Code
