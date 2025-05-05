@@ -1,5 +1,3 @@
-
-
 /*************************
 Name Of Task: Alerts and Prompts
 Name Of Person: Achlys Vincent
