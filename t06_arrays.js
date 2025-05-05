@@ -6,7 +6,7 @@ Purpose: Use arrays to store several pieces of information.
 *************************/
 
 //Variables
-
+var cookie = ["Espresso Cookie", "Shadow Milk Cookie", "Wizard Cookie", "Pure Vanilla Cookie", "Clover Cookie"];
 
 /*************************
 Main Code
