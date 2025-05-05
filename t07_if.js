@@ -30,7 +30,7 @@ else if (pocketMoney > 4){
     console.log("Lookie lookie! You have more than enough for a $4 chocolate bar. You should buy one and give it to me");
 }
 else if (pocketMoney == 4){
-    console.log("You have JUST enough money for a $4 chocolate bar. If you choose to buy one, uou should share with me");
+    console.log("You have JUST enough money for a $4 chocolate bar. If you choose to buy one, you should share with me");
 }
 /*************************
 Functions
