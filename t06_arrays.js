@@ -11,7 +11,7 @@ var cookie = ["Espresso Cookie", "Shadow Milk Cookie", "Wizard Cookie", "Pure Va
 /*************************
 Main Code
 *************************/
-
+alert("Ever heard of Cookie Run Kingdom? Doesn't matter! In CRK there are mult");
 /*************************
 Functions
 *************************/
