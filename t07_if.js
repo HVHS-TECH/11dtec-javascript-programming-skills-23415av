@@ -2,24 +2,36 @@
 Name Of Task: Conditional Statements
 Name Of Person: Achlys Vincent
 Date: Week Two Of Term Two 2025
-Purpose: Use arrays to store several pieces of information.
+Purpose: Use conditional statements to make decisions. 
 *************************/
 
 //Variables
-let cookieArraynormal = ["Espresso Cookie", "Shadow Milk Cookie", "Wizard Cookie", "Pure Vanilla Cookie", "Clover Cookie"];
-let cookieArray = ["Espresso Cookie\nMy Second Favourite", "Shadow Milk Cookie\nMy Fourth Favourite", "Wizard Cookie\nMy Nothing Favourite. He isn't even my favourite common.\nAngel Cookie takes that title", "Pure Vanilla Cookie\nMy Third Favourite", "Clover Cookie\nMy Forever Favourite\nI love Clover Cookie so much, I do not care if he is a rare, I love him anyway"];
+alert("[Unknown_User]. We meet again.");
+var userName = prompt("I seem to have forgotten your name. Care to type it in to remind me?");
+var userAge = prompt("Well. I have no way of verifying if this is true or not " + userName +"\nSo. I've actually forgotten everything. Age pretty please.");
+userAge = Number(userAge);
+var currentYear = prompt("Did the change? No idea. I just hope you really are " +userAge+"?\nI'm guessing what year you were born in again!!!. Current year please.");
+currentYear = Number(currentYear);
+var pocketMoney = prompt("Ohh " +userName+ "\nHow much money do you have again?");
+pocketMoney = Number(pocketMoney);
+var answer;
 /*************************
 Main Code
 *************************/
-alert("Ever heard of Cookie Run Kingdom? Doesn't matter! In CRK there are multiple rarites and over one hundred cookies. \nToday, I have picked five cookies of different rarites for you to try and get.");
-alert("Our Common cookie is " + cookieArraynormal[2]);
-alert("Our Rare cookie is " + cookieArraynormal[4]);
-alert("Our Epic cookie is " + cookieArraynormal[0]);
-alert("Our Ancient cookie is " + cookieArraynormal[3]);
-alert("Our Beast cookie is " + cookieArraynormal[1]);
-var choice = prompt("Well. Now, it's time to get your cookie. Pick a number any number!\nAnd by any number I mean these five numbers.\n 0, 1, 2, 3, or 4.");
-alert("And Cookie number " + choice + " is none other than " + cookieArray[choice]);
-console.log("Why are you looking here? You got your cookie.\nIt's " + cookieArraynormal[choice]);
+console.log("Hello again ",userName,
+"\nAs of right now, which is ",currentYear," you are ",userAge," years old",);
+answer = currentYear - userAge;
+console.log("You were, without a doubt born in " ,answer);
+console.log("You have" ,pocketMoney, "dollars",);
+if (pocketMoney < 4){
+    console.log("That is not enough for a $4 chocolate bar");
+}
+else if (pocketMoney > 4){
+    console.log("Lookie lookie! You have more than enough for a $4 chocolate bar. You should buy one and give it to me");
+}
+else (pocketMoney == 4){
+    console.log("You have JUST enough money for a $4 chocolate bar. If you choose to buy one, uou should share with me");
+}
 /*************************
 Functions
 *************************/
