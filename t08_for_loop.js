@@ -14,7 +14,7 @@ Main Code
 *************************/
 console.log("Add five numbers together");
 for (count = 0; count < 5; count ++) {
-    prompt("Number");
+    number = prompt("Number");
     console.log("Just Wait");
 }
 console.log ("Your Number Is " + count);
