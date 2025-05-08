@@ -7,16 +7,16 @@ Purpose: Define and call functions.
 console.log("I am so tired as of writing this code because I rearranged my entire room yesterday.");
 
 //Variables
-
+function askUserName() {
+    userName = prompt("Go on");
+    alert("Yes. Hi " + userName);
+}
 
 /*************************
 Main Code
 *************************/
-alert ("Welcome again. No I don't remeber your name. Yes I'm going to ask again");
-function askUserName() {
-    userName = prompt("Go on");
-    alert ("Yes. Hi " + userName);
-}
+alert("Welcome again. No I don't remeber your name. Yes I'm going to ask again");
+askUserName ()
 
 /*************************
 Functions
