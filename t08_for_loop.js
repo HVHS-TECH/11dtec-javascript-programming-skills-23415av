@@ -12,7 +12,7 @@ console.log("I am so tired as of writing this code because I rearranged my entir
 /*************************
 Main Code
 *************************/
-
+console.log("Add five numbers together");
 
 
 
