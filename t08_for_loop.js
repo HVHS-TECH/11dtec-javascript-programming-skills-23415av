@@ -13,8 +13,11 @@ console.log("I am so tired as of writing this code because I rearranged my entir
 Main Code
 *************************/
 console.log("Add five numbers together");
-
-
+for (count = 0; count < 5; count ++) {
+    prompt("Number");
+    console.log("Just Wait");
+}
+console.log ("Your Number Is " + count);
 
 /*************************
 Functions
