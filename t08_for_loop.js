@@ -7,7 +7,7 @@ Purpose: Get a section of code to repeat a certain number of times.
 console.log("I am so tired as of writing this code because I rearranged my entire room yesterday.");
 
 //Variables
-
+number = 0;
 
 /*************************
 Main Code
