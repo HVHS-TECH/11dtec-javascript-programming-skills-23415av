@@ -14,10 +14,10 @@ Main Code
 *************************/
 console.log("Add five numbers together");
 for (count = 0; count < 5; count ++) {
-    number = prompt("Number");
+    number += prompt("Number");
     console.log("Just Wait");
 }
-console.log ("Your Number Is " + count);
+console.log ("Your Number Is " + number);
 
 /*************************
 Functions
