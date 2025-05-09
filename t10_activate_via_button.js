@@ -18,10 +18,6 @@ function start() {
     userName = askUserName();
     userAge = askUserAge();
     userMoney = askUserMoney();
-    console.log("Starting if block");
-    console.log(userMoney);
-        console.log(typeof(userMoney));
-
     if (userMoney < 4) {
         console.log("Sorry " + userName + ", that is not enough for a $4 chocolate bar\nSimply get more money and go buy one for me. I'm sure " + userAge + " is a good age to work at");
     }
@@ -41,10 +37,12 @@ function askUserName() {
     return (temp);
 }
 function askUserAge() {
-    userAge = prompt("Age");
+    var temp2 = prompt("Age");
+    return (temp2);
     userAge = Number(userAge);
 }
 function askUserMoney() {
-    userMoney = prompt("Money");
+    var temp3 = prompt("Money");
+    return (temp3);
     userMoney = Number(userMoney);
 }
