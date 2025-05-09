@@ -19,6 +19,9 @@ function start() {
     userAge = askUserAge(2);
     userMoney = askUserMoney(2);
     console.log("Starting if block");
+    console.log(userMoney);
+        console.log(typeof(userMoney));
+
     if (userMoney < 4) {
         console.log("Sorry " + userName + ", that is not enough for a $4 chocolate bar\nSimply get more money and go buy one for me. I'm sure " + userAge + " is a good age to work at");
     }
