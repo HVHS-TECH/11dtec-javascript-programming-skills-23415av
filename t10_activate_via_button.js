@@ -10,17 +10,7 @@ Purpose: Get a html button to work.
 let userName;
 let userAge;
 let userMoney;
-function askUserName() {
-    userName = prompt("Name");
-}
-function askUserAge() {
-    userAge = prompt("Age");
-    userAge = Number(userAge);
-}
-function askUserMoney() {
-    userMoney = prompt("Money");
-    userMoney = Number(userMoney);
-}
+
 /*************************
 Main Code
 *************************/
@@ -42,3 +32,14 @@ else if (userMoney == 4){
 /*************************
 Functions
 *************************/
+function askUserName() {
+    userName = prompt("Name");
+}
+function askUserAge() {
+    userAge = prompt("Age");
+    userAge = Number(userAge);
+}
+function askUserMoney() {
+    userMoney = prompt("Money");
+    userMoney = Number(userMoney);
+}
