@@ -15,9 +15,9 @@ let userMoney;
 Main Code
 *************************/
 function start() {
-    userName = askUserName("bob");
-    userAge = askUserAge(2);
-    userMoney = askUserMoney(2);
+    userName = askUserName();
+    userAge = askUserAge();
+    userMoney = askUserMoney();
     console.log("Starting if block");
     console.log(userMoney);
         console.log(typeof(userMoney));
