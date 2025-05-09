@@ -7,28 +7,29 @@ Purpose: Get a html button to work.
 
 
 //Variables
+let userName;
+let userAge;
+let userMoney;
 function askUserName() {
-    userName = prompt("Go on");
-    alert("Yes. Hi " + userName);
+    userName = prompt("Name");
 }
 function askUserAge() {
-    userAge = prompt("And the age was?");
+    userAge = prompt("Age");
     userAge = Number(userAge);
-    alert("Only " + userAge + "?");
 }
 function askUserMoney() {
-    userMoney = prompt("How much money you have?");
+    userMoney = prompt("Money");
     userMoney = Number(userMoney);
-    alert("Oh wow. " + userMoney + " Dollars.");
 }
-
 /*************************
 Main Code
 *************************/
-alert("Welcome again. No I don't remeber your name. Yes I'm going to ask again");
-askUserName ()
-askUserAge ()
-askUserMoney ()
+function start () {
+userName = askUserName ();
+userAge = askUserAge ();
+userMoney = askUserMoney ();
+}
+
 if (userMoney < 4){
     console.log("That is not enough for a $4 chocolate bar\nSimply get more money and go buy one for me");
 }
