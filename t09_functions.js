@@ -20,7 +20,7 @@ function askUserAge() {
 function askUserMoney() {
     userMoney = prompt("How much money you have?");
     userMoney = Number(userMoney);
-    alert("Oh wow. " + userMoney + "Dollars.");
+    alert("Oh wow. " + userMoney + " Dollars.");
 }
 
 /*************************
