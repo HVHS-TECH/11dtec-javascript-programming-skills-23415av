@@ -27,7 +27,7 @@ function start() {
     }
     else if (userMoney == 4) {
         console.log(+ userName + ". You have JUST enough money for a $4 chocolate bar. If you choose to buy one, you should share with me\nNot should. Do. Please. At " + userAge + " you should be always doing this");
-    }
+    }else{console.log("WTF?")}
 }
 
 /*************************
