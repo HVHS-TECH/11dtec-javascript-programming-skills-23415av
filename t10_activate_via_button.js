@@ -37,7 +37,8 @@ function start() {
 Functions
 *************************/
 function askUserName() {
-    userName = prompt("Name");
+    var temp = prompt("Name");
+    return (temp);
 }
 function askUserAge() {
     userAge = prompt("Age");
