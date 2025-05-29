@@ -19,11 +19,13 @@ function start() {
     userAge = askUserAge();
     userMoney = askUserMoney();
     if (userMoney = 5) {
-        alert = "What you can afford:\n"
+        alert = "What you can afford:\nLindt Block - $5"
     } else if (userMoney = 4) {
-        alert = "What you can afford:\n"
+        alert = "What you can afford:\nDairy Milk Block - $4"
     } else if (userMoney = 3) {
-        alert = "What you can afford:\n"
+        alert = "What you can afford:\nKing Size Crunchy - $3"
+    } else if (userMoney = 2) {
+        alert = "What you can afford:\nMoro bar - $2"
     } else if (userMoney = 1) {
         alert = "What you can afford:\nMars bar - $1"
     } else if (userMoney = 0) {
@@ -52,4 +54,5 @@ function start() {
         var temp3 = prompt("Money");
         return (temp3);
         userMoney = Number(userMoney);
-    }}
+    }
+}
