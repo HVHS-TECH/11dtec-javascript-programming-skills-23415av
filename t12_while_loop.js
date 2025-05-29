@@ -21,7 +21,8 @@ alert("Loop ended! Prepare for the second loop.")
 
 var text = "Would you like this loop to play again?";
 while (confirm(text) == true) {
- text = "Loop repeating...";
+ text = "Loop repeating...\nCancel if you wish to end the loop.";
+ console.log("Loop repeating...");
 }
 console.log("Loop ended!");
 
