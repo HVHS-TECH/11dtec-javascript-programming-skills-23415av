@@ -18,31 +18,38 @@ function start() {
     userName = askUserName();
     userAge = askUserAge();
     userMoney = askUserMoney();
-    if (userMoney < 4) {
-        console.log("Sorry " + userName + ", that is not enough for a $4 chocolate bar\nSimply get more money and go buy one for me. I'm sure " + userAge + " is a good age to work at");
-    }
-    else if (userMoney > 4) {
-        console.log("Lookie lookie " + userName + "! You have more than enough for a $4 chocolate bar. You should buy one and give it to me\nIn fact. Do it now please. All " + userAge + " year olds should");
-    }
-    else if (userMoney == 4) {
-        console.log(+ userName + ". You have JUST enough money for a $4 chocolate bar. If you choose to buy one, you should share with me\nNot should. Do. Please. At " + userAge + " you should be always doing this");
-    }else{console.log("WTF?")}
-}
+    if (userMoney = 5) {
+        alert = "What you can afford:\n"
+    } else if (userMoney = 4) {
+        alert = "What you can afford:\n"
+    } else if (userMoney = 3) {
+        alert = "What you can afford:\n"
+    } else if (userMoney = 1) {
+        alert = "What you can afford:\nMars bar - $1"
+    } else if (userMoney = 0) {
+        alert = "What you can afford:\nNothing. Oh No."
+    } else { alert = "That was an invalid answer. Please try again." }
 
-/*************************
-Functions
-*************************/
-function askUserName() {
-    var temp = prompt("Name");
-    return (temp);
-}
-function askUserAge() {
-    var temp2 = prompt("Age");
-    return (temp2);
-    userAge = Number(userAge);
-}
-function askUserMoney() {
-    var temp3 = prompt("Money");
-    return (temp3);
-    userMoney = Number(userMoney);
-}
+    /*************************
+    Functions
+    *************************/
+    function askUserName() {
+        var temp = prompt("Name");
+        return (temp);
+        if (userName == Number) {
+            alert = "Invalid name. Please refresh page."
+        } else { alert = "Nice name." }
+    }
+    function askUserAge() {
+        var temp2 = prompt("Age");
+        return (temp2);
+        userAge = Number(userAge);
+        if (userAge == Number) {
+            alert = "Nice age."
+        } else { alert = "Invalid age. Please refresh page." }
+    }
+    function askUserMoney() {
+        var temp3 = prompt("Money");
+        return (temp3);
+        userMoney = Number(userMoney);
+    }}
