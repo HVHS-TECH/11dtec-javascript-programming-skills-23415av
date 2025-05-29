@@ -38,17 +38,11 @@ function start() {
     function askUserName() {
         var temp = prompt("Name");
         return (temp);
-        if (userName == Number) {
-            alert = "Invalid name. Please refresh page."
-        } else { alert = "Nice name." }
     }
     function askUserAge() {
         var temp2 = prompt("Age");
         return (temp2);
         userAge = Number(userAge);
-        if (userAge == Number) {
-            alert = "Nice age."
-        } else { alert = "Invalid age. Please refresh page." }
     }
     function askUserMoney() {
         var temp3 = prompt("Money");
