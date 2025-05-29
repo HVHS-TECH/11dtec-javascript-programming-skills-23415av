@@ -30,6 +30,8 @@ function start() {
         alert = "What you can afford:\nMars bar - $1"
     } else if (userMoney = 0) {
         alert = "What you can afford:\nNothing. Oh No."
+    } else if (userMoney > 5) {
+        alert = "What you can afford:\nLindt Block - $5"
     } else { alert = "That was an invalid answer. Please try again." }
 
     /*************************
