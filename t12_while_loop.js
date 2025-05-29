@@ -20,11 +20,10 @@ while (loopChoice == "Y") {
 alert("Loop ended! Prepare for the second loop.")
 
 var text = "Would you like this loop to play again?";
-if (confirm(text) == true) {
+while (confirm(text) == true) {
  text = "Loop repeating...";
-} else {
- text = "Loop ended!";
 }
+console.log("Loop ended!");
 
 
 
