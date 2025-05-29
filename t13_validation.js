@@ -32,6 +32,7 @@ function start() {
         alert = "What you can afford:\nNothing. Oh No."
     } else if (userMoney > 5) {
         alert = "What you can afford:\nLindt Block - $5"
+    }
 
     /*************************
     Functions
