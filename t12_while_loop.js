@@ -19,18 +19,15 @@ while (loopChoice == "Y") {
 
 alert("Loop ended! Prepare for the second loop.")
 
-confirmPrompt()
+var text = "Would you like this loop to play again?";
+if (confirm(text) == true) {
+ text = "Loop repeating...";
+} else {
+ text = "Loop ended!";
+}
+
+
 
 /*************************
 Functions
 *************************/
-
-function confirmPrompt() {
-var text = "Would you like this loop to play again?";
-if (confirm(text) == true) {
- text = "Loop repeating...";
- confirmPrompt ()
-} else {
- text = "Loop ended!";
-}
-}
