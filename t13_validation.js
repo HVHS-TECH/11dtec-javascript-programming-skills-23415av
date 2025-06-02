@@ -46,19 +46,19 @@ function start() {
     }
 
     if (userMoney = 5) {
-        alert = "What you, a " + userAge + " year old named " + userName + ", can afford:\nLindt Block - $5"
+        console.log("What you, a " + userAge + " year old named " + userName + ", can afford:\nLindt Block - $5");
     } else if (userMoney = 4) {
-        alert = "What you, a " + userAge + " year old named " + userName + ", can afford:\nDairy Milk Block - $4"
+        console.log("What you, a " + userAge + " year old named " + userName + ", can afford:\nDairy Milk Block - $4");
     } else if (userMoney = 3) {
-        alert = "What you, a " + userAge + " year old named " + userName + ", can afford:\nKing Size Crunchy - $3"
+        console.log("What you, a " + userAge + " year old named " + userName + ", can afford:\nKing Size Crunchy - $3");
     } else if (userMoney = 2) {
-        alert = "What you, a " + userAge + " year old named " + userName + ", can afford:\nMoro bar - $2"
+        console.log("What you, a " + userAge + " year old named " + userName + ", can afford:\nMoro bar - $2");
     } else if (userMoney = 1) {
-        alert = "What you, a " + userAge + " year old named " + userName + ", can afford:\nMars bar - $1"
+        console.log("What you, a " + userAge + " year old named " + userName + ", can afford:\nMars bar - $1");
     } else if (userMoney = 0) {
-        alert = "What you, a " + userAge + " year old named " + userName + ", can afford:\nNothing. Oh No."
+        console.log("What you, a " + userAge + " year old named " + userName + ", can afford:\nNothing. Oh No.");
     } else if (userMoney > 5) {
-        alert = "What you, a " + userAge + " year old named " + userName + ", can afford:\nLindt Block - $5"
+        console.log("What you, a " + userAge + " year old named " + userName + ", can afford:\nLindt Block - $5");
     }
 }
 
