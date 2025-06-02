@@ -58,7 +58,7 @@ function start() {
     }if (userMoney == 0) {
         console.log("What you, a " + userAge + " year old named " + userName + ", can afford:\nNothing. Oh No.");
     }if (userMoney > 5) {
-        console.log("What you, a " + userAge + " year old named " + userName + ", can afford:\nLindt Block - $5");
+        console.log("What you, a " + userAge + " year old named " + userName + ", can afford:\nLindt Block - $5 with some left over money!");
     }
 }
 
