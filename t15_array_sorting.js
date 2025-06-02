@@ -40,7 +40,7 @@ function start() {
             userAgeIsInvalid = false;
         }
     }
-    for (i = 0; i < chocolateBars.length l; i++){
+    for (i = 0; i < chocolateBars.length; i++){
         alert("Chocolate bar " +i+ " is " +chocolateBars[i]);
     }
     while (userMoneyIsInvalid) {
