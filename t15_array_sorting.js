@@ -13,8 +13,12 @@ const MINAGE = 0;
 const MAXAGE = 130;
 let userAge;
 let userAgeIsInvalid = true;
+const MINMONEY = 0;
+const MAXMONEY = 10;
 let userMoney;
 let userMoneyIsInvalid = true;
+let chocolateBars = ["Mars bar", "Moro bar", "King  Size Crunchy", "Dairy Milk Block", "Lindt Block"];
+let chocolatePrices = ["$2", "$3.50", "$3", "$6", "$7"]
 
 /*************************
 Main Code
@@ -36,10 +40,13 @@ function start() {
             userAgeIsInvalid = false;
         }
     }
+    for (i = 0; i < chocolateBars.length l; i++){
+        alert("Chocolate bar " +i+ " is " +chocolateBars[i]);
+    }
     while (userMoneyIsInvalid) {
         userMoney = prompt("Please import a valid amount of money");
-        if (userMoney == null || userMoney == " " || userMoney == " " || isNaN(userMoney)) {
-            alert("Nope. Numbers only, or it isn't valid.");
+        if (userMoney == null || userMoney == " " || userMoney == " " || isNaN(userMoney) || userMoney < MINMONEY || userMoney > MAXMONEY) {
+            alert("Try again. Make sure to read the prompt properly.");
         } else {
             userMoneyIsInvalid = false;
         }
