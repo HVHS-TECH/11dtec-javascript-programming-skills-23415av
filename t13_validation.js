@@ -46,25 +46,11 @@ function start() {
     /*************************
     Functions
     *************************/
-    function askUserName() {
-        var temp = prompt("Name");
-        return (temp);
-    }
-    function askUserAge() {
-        var temp2 = prompt("Age");
-        return (temp2);
-        userAge = Number(userAge);
-    }
-    function askUserMoney() {
-        var temp3 = prompt("Money");
-        return (temp3);
-        userMoney = Number(userMoney);
-    }
-}
+
 
 
 while (userAgeIsInvalid) {
-    userAge = askUserAge();
+    userAge = prompt ("Please import a valid age")
     if (userAge == null || userAge == " " || userAge == " " || isNaN(userAge)) {
         alert = ("Nope. Numbers only, or it isn't valid. It also has to be between " +MINAGE+ " and " +MAXAGE+ ", or I don't believe you.");
     } else {
