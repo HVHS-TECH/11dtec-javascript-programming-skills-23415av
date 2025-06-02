@@ -17,7 +17,7 @@ const MINMONEY = 0;
 const MAXMONEY = 10;
 let userMoney;
 let userMoneyIsInvalid = true;
-let chocolateBars = ["Mars bar", "Moro bar", "King  Size Crunchy", "Dairy Milk Block", "Lindt Block"];
+let chocolateBars = ["Mars bar", "Moro bar", "King Size Crunchy", "Dairy Milk Block", "Lindt Block"];
 let chocolatePrices = ["$2", "$3.50", "$3", "$6", "$7"]
 
 /*************************
