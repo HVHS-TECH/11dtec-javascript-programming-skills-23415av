@@ -30,7 +30,7 @@ function start() {
     }
     while (userAgeIsInvalid) {
         userAge = prompt("Please import a valid age")
-        if (userAge == null || userAge == " " || userAge == " " || isNaN(userAge)) {
+        if (userAge == null || userAge == " " || userAge == " " || isNaN(userAge) || userAge < MINAGE || userAge > MAXAGE) {
             alert = ("Nope. Numbers only, or it isn't valid. It also has to be between " + MINAGE + " and " + MAXAGE + ", or I don't believe you.");
         } else {
             userAgeIsInvalid = false;
