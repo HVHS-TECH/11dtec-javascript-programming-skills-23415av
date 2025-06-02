@@ -8,6 +8,7 @@ Purpose: Only allow valid input from the user.
 
 //Variables
 let userName;
+const
 let userAge;
 let userMoney;
 
@@ -61,3 +62,6 @@ function start() {
         userMoney = Number(userMoney);
     }
 }
+
+
+while (userAgeIsInvalid)
