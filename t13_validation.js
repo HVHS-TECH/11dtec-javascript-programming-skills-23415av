@@ -21,7 +21,7 @@ Main Code
 *************************/
 function start() {
     while (userNameIsInvalid) {
-        userName = prompt("Please import a valid age")
+        userName = prompt("Please import a valid name");
         if (!isNaN(userName) || userName == null || userName == " " || userName == " ") {
             alert = ("Nope. That isn't a name. Those aren't letters.");
         } else {
@@ -29,7 +29,7 @@ function start() {
         }
     }
     while (userAgeIsInvalid) {
-        userAge = prompt("Please import a valid age")
+        userAge = prompt("Please import a valid age");
         if (userAge == null || userAge == " " || userAge == " " || isNaN(userAge) || userAge < MINAGE || userAge > MAXAGE) {
             alert = ("Nope. Numbers only, or it isn't valid. It also has to be between " + MINAGE + " and " + MAXAGE + ", or I don't believe you.");
         } else {
@@ -37,7 +37,7 @@ function start() {
         }
     }
     while (userMoneyIsInvalid) {
-        userMoney = prompt("Please import a valid age")
+        userMoney = prompt("Please import a valid amount of money");
         if (userMoney == null || userMoney == " " || userMoney == " " || isNaN(userMoney)) {
             alert = ("Nope. Numbers only, or it isn't valid.");
         } else {
