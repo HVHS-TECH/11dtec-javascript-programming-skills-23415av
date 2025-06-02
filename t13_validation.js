@@ -67,5 +67,7 @@ while (userAgeIsInvalid) {
     userAge = askUserAge();
     if (userAge == null || userAge == " " || userAge == " " || isNaN(userAge)) {
         alert = ("Nope. Numbers only, or it isn't valid. It also has to be between " +MINAGE+ " and " +MAXAGE+ ", or I don't believe you.");
+    } else {
+        userAgeIsInvalid = false;
     }
 }
