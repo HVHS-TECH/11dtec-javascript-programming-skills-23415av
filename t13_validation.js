@@ -8,22 +8,21 @@ Purpose: Only allow valid input from the user.
 
 //Variables
 let userName;
-const
+const MINAGE = 0;
+const MAXAGE = 130;
 let userAge;
+let userAgeIsInvalid = true;
 let userMoney;
 
 /*************************
 Main Code
 *************************/
 function start() {
-    userName = askUserName();
+    
     if (!isNaN(userName) || userName == null || userName == " " || userName == " ") {
         userName = ("Nice try buckaroo, but that is an invalid prompt. Numbers are not aloud. Try again.");
     }
-    userAge = askUserAge();
-    if (userAge == null || userAge == " " || userAge == " " || isNaN(userAge)) {
-        userAge = ("Nope. Numbers only, or it isn't valid.");
-    }
+
     userMoney = askUserMoney();
     if (userMoney == null || userMoney == " " || userMoney == " " || isNaN(userMoney)) {
         userMoney = ("Nope. Numbers only, or it isn't valid.");
@@ -64,4 +63,9 @@ function start() {
 }
 
 
-while (userAgeIsInvalid)
+while (userAgeIsInvalid) {
+    userAge = askUserAge();
+    if (userAge == null || userAge == " " || userAge == " " || isNaN(userAge)) {
+        alert = ("Nope. Numbers only, or it isn't valid. It also has to be between " +MINAGE+ " and " +MAXAGE+ ", or I don't believe you.");
+    }
+}
