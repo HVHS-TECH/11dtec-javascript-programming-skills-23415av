@@ -13,6 +13,7 @@ const MINAGE = 0;
 const MAXAGE = 130;
 let userAge;
 let userAgeIsInvalid = true;
+let message = "The different chocolate bars are:"
 const MINMONEY = 0;
 const MAXMONEY = 10;
 let userMoney;
