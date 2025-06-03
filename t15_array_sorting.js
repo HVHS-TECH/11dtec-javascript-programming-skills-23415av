@@ -59,6 +59,8 @@ function start() {
         }
     }
 
+    
+
     alert("Now check the console [ctrl+shift+i]");
 
     if (userMoney == 5) {
