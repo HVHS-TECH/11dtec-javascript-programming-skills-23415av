@@ -59,17 +59,10 @@ function start() {
         }
     }
 
-    for (i = 0; i < chocolatePrices; i++){
+    for (i = 0; i < chocolatePrices.length; i++){
         if(userMoney == chocolatePrices[i]) {
             alert("The most expensive chocolate bar you can afford is the "+chocolateBars[i]+" for " +chocolatePrices[i]);
             break;
-        }
-        if(userMoney >= chocolatePrices[i]) {
-            alert("The most expensive chocolate bar you can afford is the Lindt block for $7");
-        }
-        if(userMoney <= chocolatePrices[i]) {
-            alert("You are unable to afford any chocolate bars.");
-        }
       }
 }
 
