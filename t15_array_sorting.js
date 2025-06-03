@@ -44,6 +44,12 @@ function start() {
     for (i = 0; i < chocolateBars.length; i++){
         alert("Chocolate bar " +i+ " is " +chocolateBars[i]);
     }
+
+    for (i = 0; i < chocolateBars.length; i++){
+        message = message + "\nChocolate bar "+i+" is "+chocolateBars[i];
+    }
+    alert(message)
+
     while (userMoneyIsInvalid) {
         userMoney = prompt("Please import a valid amount of money");
         if (userMoney == null || userMoney == " " || userMoney == " " || isNaN(userMoney) || userMoney < MINMONEY || userMoney > MAXMONEY) {
