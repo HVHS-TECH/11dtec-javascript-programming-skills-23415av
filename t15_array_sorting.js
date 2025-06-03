@@ -61,10 +61,8 @@ function start() {
 
     for (i = 0; i < chocolatePrices; i++){
         if(userMoney == chocolatePrices[i]) {
-            alert("The most expensive chocolate bar you can afford is "+chocolateBars[i]+" for "+chocolatePrices[i]);
+            alert("The most expensive chocolate bar you can afford is "+chocolatePrices[i]);
             break;
-        }if(userMoney >= chocolatePrices[i]) {
-            aler
         }
       }
 
