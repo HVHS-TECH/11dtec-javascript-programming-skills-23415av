@@ -48,7 +48,7 @@ function start() {
     for (i = 0; i < chocolateBars.length; i++){
         message = message + "\nChocolate bar "+i+" is "+chocolateBars[i];
     }
-    alert(message)
+    alert(message);
 
     while (userMoneyIsInvalid) {
         userMoney = prompt("Please import a valid amount of money");
@@ -58,6 +58,8 @@ function start() {
             userMoneyIsInvalid = false;
         }
     }
+
+    alert("Now check the console [ctrl+shift+i]");
 
     if (userMoney == 5) {
         console.log("What you, a " + userAge + " year old named " + userName + ", can afford:\nLindt Block - $5");
