@@ -59,6 +59,14 @@ function start() {
         }
     }
 
+    for (i = 0; i < chocolatePrices; i++){
+        if(userMoney == chocolatePrices[i]) {
+            alert("The most expensive chocolate bar you can afford is "+chocolateBars[i]+" for "+chocolatePrices[i]);
+            break;
+        
+        }
+      }
+
 
 
     alert("Now check the console [ctrl+shift+i]");
