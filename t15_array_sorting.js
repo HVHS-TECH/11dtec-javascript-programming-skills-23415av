@@ -61,30 +61,16 @@ function start() {
 
     for (i = 0; i < chocolatePrices; i++){
         if(userMoney == chocolatePrices[i]) {
-            alert("The most expensive chocolate bar you can afford is "+chocolatePrices[i]);
+            alert("The most expensive chocolate bar you can afford is the "+chocolateBars[i]+" for " +chocolatePrices[i]);
             break;
         }
+        if(userMoney >= chocolatePrices[i]) {
+            alert("The most expensive chocolate bar you can afford is the Lindt block for $7");
+        }
+        if(userMoney <= chocolatePrices[i]) {
+            alert("You are unable to afford any chocolate bars.");
+        }
       }
-
-
-
-    alert("Now check the console [ctrl+shift+i]");
-
-    if (userMoney == 5) {
-        console.log("What you, a " + userAge + " year old named " + userName + ", can afford:\nLindt Block - $5");
-    }if (userMoney == 4) {
-        console.log("What you, a " + userAge + " year old named " + userName + ", can afford:\nDairy Milk Block - $4");
-    }if (userMoney == 3) {
-        console.log("What you, a " + userAge + " year old named " + userName + ", can afford:\nKing Size Crunchy - $3");
-    }if (userMoney == 2) {
-        console.log("What you, a " + userAge + " year old named " + userName + ", can afford:\nMoro bar - $2");
-    }if (userMoney == 1) {
-        console.log("What you, a " + userAge + " year old named " + userName + ", can afford:\nMars bar - $1");
-    }if (userMoney == 0) {
-        console.log("What you, a " + userAge + " year old named " + userName + ", can afford:\nNothing. Oh No.");
-    }if (userMoney > 5) {
-        console.log("What you, a " + userAge + " year old named " + userName + ", can afford:\nLindt Block - $5 with some left over money!");
-    }
 }
 
 /*************************
