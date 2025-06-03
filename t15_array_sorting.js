@@ -19,7 +19,7 @@ const MAXMONEY = 10;
 let userMoney;
 let userMoneyIsInvalid = true;
 let chocolateBars = ["Mars bar", "Moro bar", "King Size Crunchy", "Dairy Milk Block", "Lindt Block"];
-let chocolatePrices = ["$2", "$3.50", "$3", "$6", "$7"]
+let chocolatePrices = ["$2", "$2.50", "$3", "$6", "$7"]
 
 /*************************
 Main Code
@@ -59,7 +59,7 @@ function start() {
         }
     }
 
-    
+
 
     alert("Now check the console [ctrl+shift+i]");
 
