@@ -58,7 +58,7 @@ function start() {
             userMoneyIsInvalid = false;
         }
     }
-
+/*
     for (i = 0; i < chocolatePrices.length; i++) {
         if (userMoney == chocolatePrices[i]) {
             alert("The most expensive chocolate bar you can afford is the " + chocolateBars[i] + " for $" + chocolatePrices[i]);
@@ -73,13 +73,14 @@ function start() {
             alert("The most expensive chocolate bar you can afford is the " + chocolateBars[i] + " for $" + chocolatePrices[i]);
             break;
         }
-    }
+    }*/
     let expensiveChocolate = " ";
     for (i = 0; i < chocolatePrices.length; i++) {
         if(chocolatePrices[i] <= userMoney) {
-            expensiveChocolate = 
+            expensiveChocolate = chocolateBars[i];
         }
     }
+    alert(expensiveChocolate);
 }
 
 
