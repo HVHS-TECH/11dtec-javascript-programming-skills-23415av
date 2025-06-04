@@ -63,10 +63,10 @@ function start() {
         if(userMoney == chocolatePrices[i]) {
             alert("The most expensive chocolate bar you can afford is the "+chocolateBars[i]+" for $" +chocolatePrices[i]);
             break;
-      } if(userMoney >= chocolatePrices[i]) {
+      } if(userMoney > 5) {
             alert("The most expensive chocolate bar you can afford is the Lindt block for $5");
             break;
-      } if(userMoney <= chocolatePrices[i]) {
+      } if(userMoney < 1) {
             alert("You are unable to afford any chocolate bar.");
             break;
 }
