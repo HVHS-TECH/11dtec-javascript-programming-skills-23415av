@@ -19,7 +19,7 @@ const MAXMONEY = 10;
 let userMoney;
 let userMoneyIsInvalid = true;
 let chocolateBars = ["Mars bar", "Moro bar", "King Size Crunchy", "Dairy Milk Block", "Lindt Block"];
-let chocolatePrices = ["$2", "$2.50", "$3", "$6", "$7"]
+let chocolatePrices = [2, 2.50, 3, 6, 7]
 
 /*************************
 Main Code
@@ -61,7 +61,7 @@ function start() {
 
     for (i = 0; i < chocolatePrices.length; i++){
         if(userMoney == chocolatePrices[i]) {
-            alert("The most expensive chocolate bar you can afford is the "+chocolateBars[i]+" for " +chocolatePrices[i]);
+            alert("The most expensive chocolate bar you can afford is the "+chocolateBars[i]+" for $" +chocolatePrices[i]);
             break;
       }
 }
