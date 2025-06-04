@@ -69,7 +69,7 @@ function start() {
       } if(userMoney < 1) {
             alert("You are unable to afford any chocolate bar.");
             break;
-    } if(userMoney >= chocolatePrices[i]) {
+      } if(userMoney >= chocolatePrices[i]) {
             alert("The most expensive chocolate bar you can afford is the "+chocolateBars[i]+" for $" +chocolatePrices[i]);
             break;
 }
